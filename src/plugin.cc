@@ -6,7 +6,7 @@
  *
  */
 
-#include "CondCore/PluginSystem/interface/registration_macros.h"
+#include "CondCore/ESSources/interface/registration_macros.h"
 #include "CondFormats/CSCObjects/interface/CSCPedestals.h"
 #include "CondFormats/CSCObjects/interface/CSCDBPedestals.h"
 #include "CondFormats/DataRecord/interface/CSCPedestalsRcd.h"
@@ -46,7 +46,7 @@
 #include "CondFormats/CSCObjects/interface/CSCDQM_DCSData.h"
 #include "CondFormats/DataRecord/interface/CSCDCSDataRcd.h"
 
-DEFINE_SEAL_MODULE();
+
 REGISTER_PLUGIN(CSCPedestalsRcd,CSCPedestals);
 REGISTER_PLUGIN(CSCDBPedestalsRcd,CSCDBPedestals);
 REGISTER_PLUGIN(CSCGainsRcd,CSCGains);
